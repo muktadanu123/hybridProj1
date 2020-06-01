@@ -1,16 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="0" passed="0" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-05-27T21:05:41 IST" name="Suite" finished-at="2020-05-27T21:07:27 IST" duration-ms="106008">
+  <suite started-at="2020-06-01T16:53:24 IST" name="Suite" finished-at="2020-06-01T16:53:55 IST" duration-ms="30695">
     <groups>
     </groups>
-    <test started-at="2020-05-27T21:05:41 IST" name="Test" finished-at="2020-05-27T21:07:27 IST" duration-ms="106008">
+    <test started-at="2020-06-01T16:53:24 IST" name="Test" finished-at="2020-06-01T16:53:55 IST" duration-ms="30695">
       <class name="test.BuyProduct">
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:test.BuyProduct@3bf7ca37]" started-at="2020-05-27T21:05:41 IST" name="launchBrowser" finished-at="2020-05-27T21:07:27 IST" duration-ms="105964" status="PASS">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:test.BuyProduct@510f3d34]" started-at="2020-06-01T16:53:24 IST" name="launchBrowser" finished-at="2020-06-01T16:53:50 IST" duration-ms="26209" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
+        <test-method signature="login()[pri:1, instance:test.BuyProduct@510f3d34]" started-at="2020-06-01T16:53:50 IST" name="login" finished-at="2020-06-01T16:53:51 IST" duration-ms="721" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="enterItem()[pri:2, instance:test.BuyProduct@510f3d34]" started-at="2020-06-01T16:53:51 IST" name="enterItem" finished-at="2020-06-01T16:53:55 IST" duration-ms="3674" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterItem -->
       </class> <!-- test.BuyProduct -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
